@@ -37,7 +37,7 @@ def rataaladaW():
     #login
     os.system('cls')
     time.sleep(1)
-    print(">>  TRACEROUTE RATAALADA.COM")
+    print("\033[32m>>  TRACEROUTE RATAALADA.COM")
     time.sleep(1)
     print("    POS-0-3-0-0-CR01. ARKHAM.GOTHAMDATA.NET	     [27.05.19.39]")
     time.sleep(0.5)
@@ -126,6 +126,3 @@ def rataaladaW():
         exit()
 
 rataaladaW()
-
-# comando executavel
-# pyinstaller --onefile /document
